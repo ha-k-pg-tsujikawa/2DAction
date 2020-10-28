@@ -3,7 +3,7 @@
 #include "GameScene.h"
 #include "Scene.h"
 
-SceneKind g_CurrentSceneKind = SceneKind::TitleScene;
+SceneKind g_CurrentSceneKind = SceneKind::GameScene;
 SceneStep g_CurrentSceneStep = SceneStep::Init;
 
 void UpdateScene()

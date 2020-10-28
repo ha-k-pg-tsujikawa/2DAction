@@ -8,5 +8,10 @@ void InitTitleScene();
 void RunTitleScene();
 void FinishTitleScene();
 
+//enum MouseState
+//{
+//	NotActive,
+//	Active
+//};
 
 #endif
