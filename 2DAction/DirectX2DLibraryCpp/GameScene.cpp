@@ -77,7 +77,6 @@ void RunGameScene()
 		}
 	}
 
-
 	float vector = g_Slider.TargetValue - g_Slider.CurrentValue;
 
 	float sign = 1.0f;
@@ -106,10 +105,10 @@ void RunGameScene()
 	}
 
 	float percent = (g_Slider.CurrentValue - g_Slider.MinValue) / (g_Slider.MaxValue - g_Slider.MinValue);
-	
+
 	Engine::DrawTextureUV(0, 0, "slider", g_Slider.Position.X, g_Slider.Position.Y, g_Slider.Size.Width * percent, g_Slider.Size.Height);
 
-
+	
 	Engine::DrawRect(0, 0, 640, 480, 0x000000, alpha1);
 
 	if (IsFadeIn_g == true) alpha1 -= 5;
